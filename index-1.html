@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Mohammad siddik &amp; Rumana</title>
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Jost:wght@400;500&family=Cormorant+Garamond:wght@500;700&family=Amiri&display=swap" rel="stylesheet">
+<style>
+/* DETAILS: Mohammad siddik & Rumana | Saturday 14 November 2026 at 7:30 PM | MOTI BAJAR, ITVADA ROAD, Pavi-jetpur dst. Chhota Udepur, 391160 */
+:root{--bg:#EFE6DC;--rose:#B5707A;--deep:#8C4A55;--br:#7B5144;--ink:#3D2A25}
+*{box-sizing:border-box;margin:0}
+html,body{overflow-x:clip}
+html{scroll-behavior:smooth}
+body{background:var(--bg) radial-gradient(circle at 20% 10%,#f7efe6,transparent 50%);color:var(--br);font:400 16px/1.7 'Jost',sans-serif;text-align:center;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+body.lock{overflow:hidden}
+main{padding:30px 0 40px}
+.arch{position:relative;width:min(84vw,520px);margin:0 auto 44px;background:#fff;border-radius:260px 260px 18px 18px;padding:110px 22px 56px;box-shadow:0 18px 50px #7b514426}
+.arch::before{content:"";position:absolute;inset:14px;border:1.5px solid var(--br);border-radius:250px 250px 8px 8px;pointer-events:none}
+.arch.sm{padding-top:80px}
+.arabic{font:400 40px/1.4 Amiri,serif;color:var(--br)}
+.lbl{letter-spacing:.05em;font-size:15px;font-weight:500;color:var(--ink);margin:6px 0}
+.names{font:400 clamp(44px,13vw,64px)/1.1 'Pinyon Script',cursive;color:var(--br);margin:6px 0}
+.amp{font:500 44px 'Cormorant Garamond',serif;color:var(--deep)}
+hr{border:0;border-top:1.5px solid var(--br);width:70%;margin:22px auto}
+.mo,.yr{font:500 20px 'Cormorant Garamond',serif;letter-spacing:.12em;text-transform:uppercase}
+.dt{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:14px;margin:6px 0}
+.dt span{font:500 19px 'Cormorant Garamond',serif;letter-spacing:.06em;text-transform:uppercase}
+.dt b{font:700 58px/1 'Cormorant Garamond',serif;padding:4px 16px;border:solid var(--br);border-width:0 1.5px}
+.ven{font:700 clamp(22px,6.4vw,28px)/1.2 'Cormorant Garamond',serif;letter-spacing:.04em;color:var(--br)}
+.sub{font:500 19px 'Cormorant Garamond',serif;color:var(--ink);margin-top:6px}
+.cd{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:22px}
+.cd div{border:1.5px solid var(--rose);border-radius:40px 40px 10px 10px;padding:14px 2px 8px}
+.cd b{display:block;font:700 30px 'Cormorant Garamond',serif;color:var(--deep)}
+.cd span{font-size:14px;letter-spacing:.1em;text-transform:uppercase}
+.btn{text-decoration:none;display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 30px;border-radius:999px;background:var(--deep);color:#fff;border:0;font:500 16px 'Jost',sans-serif;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;margin-top:22px}
+.btn:focus-visible,#bud:focus-visible{outline:3px solid var(--rose);outline-offset:4px}
+.rs{position:absolute;pointer-events:none;width:170px;height:170px;transform-origin:center}
+.rs svg{width:100%;height:100%;animation:sway 9s ease-in-out infinite alternate}
+@keyframes sway{to{transform:rotate(14deg) scale(1.04)}}
+/* reveal */
+#reveal{position:fixed;inset:0;z-index:50;display:grid;place-items:center}
+.door{position:absolute;top:0;bottom:0;width:50.5%;background:#EFE6DC;transition:transform 1.2s cubic-bezier(.7,0,.2,1)}
+.door.l{left:0;border-right:1.5px solid var(--rose)}.door.r{right:0}
+#reveal.open .l{transform:translateX(-101%)}#reveal.open .r{transform:translateX(101%)}
+#bud{position:relative;width:210px;height:210px;background:none;border:0;cursor:pointer;transition:opacity .5s,transform 1s}
+#bud svg{width:100%;height:100%;animation:pulse 2.6s ease-in-out infinite}
+@keyframes pulse{50%{transform:scale(1.05)}}
+#reveal.go #bud svg{animation:none}
+#reveal.open #bud{opacity:0;transform:scale(1.6)}
+.tap{position:absolute;bottom:22%;left:0;right:0;letter-spacing:.3em;font-size:14.5px;text-transform:uppercase;color:var(--deep);transition:opacity .4s}
+#reveal.go .tap{opacity:0}
+.p{transform-box:fill-box;transform-origin:center}
+#bud .p{transform:scale(.15);opacity:.5}
+#reveal.go .p{transform:scale(1);opacity:1;transition:transform 1.2s cubic-bezier(.2,.9,.2,1) calc(var(--k)*.16s),opacity .8s calc(var(--k)*.16s)}
+/* fx */
+#vine{position:fixed;left:2px;top:0;width:28px;height:100%;z-index:10;pointer-events:none}
+.fx{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:20}
+.pt{position:absolute;top:-30px;width:14px;height:18px;background:radial-gradient(#E3A8B0,#B5707A);border-radius:70% 0 70% 0;opacity:0;animation:fall linear infinite}
+@keyframes fall{0%{opacity:0;transform:translate3d(0,0,0) rotate(0)}10%{opacity:.8}100%{opacity:0;transform:translate3d(var(--dx),110vh,0) rotate(400deg)}}
+.rv{opacity:0;transform:translateY(26px);transition:opacity 1s,transform 1s}
+.rv.in{opacity:1;transform:none}
+.ink{clip-path:inset(-12px 100% -12px -12px);transition:clip-path 2.2s ease .3s}
+.rv.in .ink{clip-path:inset(-12px -12px -12px -12px)}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.pt{display:none}.rv{opacity:1;transform:none}.ink{clip-path:none}}
+</style></head><body class="lock">
+<div id="reveal"><div class="door l"></div><div class="door r"></div><button id="bud" aria-label="Open invitation"></button><span class="tap">Tap the rose</span></div>
+<svg id="vine" viewBox="0 0 28 1000" preserveAspectRatio="none" aria-hidden="true"><path id="vp" d="M14 0C0 125 28 250 14 375S0 625 14 750S28 875 14 1000" fill="none" stroke="#B5707A" stroke-width="2" stroke-linecap="round"/></svg>
+<div class="fx" id="fx"></div>
+<main>
+<section class="arch rv">
+<div class="arabic" lang="ar" dir="rtl">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>
+<p class="lbl">In The Name Of Allah The Most Beneficent<br>And The Most Merciful</p>
+<p class="lbl" style="margin-top:18px">Please Join Us To Celebrate The Wedding Of:</p>
+<h1 class="names ink">Mohammad siddik</h1><div class="amp">&amp;</div><h1 class="names ink">Rumana</h1>
+<hr><a class="btn" href="#when">Save the Date</a></section>
+
+<section class="arch sm rv" id="when"><p class="mo">November</p>
+<div class="dt"><span>Saturday</span><b>14</b><span>At 7:30 PM</span></div>
+<p class="yr">2026</p>
+<div class="cd" aria-live="off"><div><b id="d">0</b><span>Days</span></div><div><b id="h">0</b><span>Hours</span></div><div><b id="m">0</b><span>Mins</span></div><div><b id="s">0</b><span>Secs</span></div></div>
+<button class="btn" id="ics">Add to Calendar</button></section>
+
+<section class="arch sm rv">
+<p class="lbl">Venue</p><a class="ven" style="display:block;text-decoration:none" href="https://www.google.com/maps/search/?api=1&amp;query=22.3468124,73.8433563" target="_blank" rel="noopener">MOTI BAJAR, ITVADA ROAD</a>
+<p class="sub">Pavi-jetpur dst. Chhota Udepur, 391160</p><a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=22.3468124,73.8433563" target="_blank" rel="noopener">Get Directions</a></section>
+</main>
+<script>
+(function(){
+var reduce=matchMedia('(prefers-reduced-motion:reduce)').matches,$=function(i){return document.getElementById(i)};
+/* ROSE BUILDER */
+function rose(){var c=['#8C4A55','#A65F6B','#B5707A','#C98A93','#DDA9B0'],s='<svg viewBox="-100 -100 200 200" aria-hidden="true">';
+for(var k=0;k<5;k++)for(var i=0;i<6;i++)s+='<g transform="rotate('+(i*60+k*27)+')"><ellipse class="p" style="--k:'+k+'" cx="0" cy="'+(-52+k*9)+'" rx="'+(42-k*7)+'" ry="'+(50-k*8)+'" fill="'+c[k]+'" stroke="#6b3a43" stroke-opacity=".25"/></g>';
+return s+'<circle r="9" fill="#6b3a43" opacity=".55"/></svg>'}
+$('bud').innerHTML=rose();
+document.querySelectorAll('[data-r]').forEach(function(e){e.innerHTML=rose().replace(/class="p"/g,'class="q"')});
+/* OPEN */
+var rv=$('reveal');
+$('bud').addEventListener('click',function(){if(rv.classList.contains('go'))return;rv.classList.add('go');
+setTimeout(function(){rv.classList.add('open')},reduce?0:1700);
+setTimeout(function(){rv.style.display='none';document.body.classList.remove('lock')},reduce?50:3000)});
+/* COUNTDOWN fixed +05:30 */
+var T=Date.parse('2026-11-14T19:30:00+05:30');
+function tick(){var d=T-Date.now();if(d<=0){document.querySelector('.cd').innerHTML='<p class="names" style="grid-column:1/-1;font-size:40px">Just Married</p>';return}
+var f=Math.floor;$('d').textContent=f(d/864e5);$('h').textContent=f(d%864e5/36e5);$('m').textContent=f(d%36e5/6e4);$('s').textContent=f(d%6e4/1e3)}
+tick();setInterval(tick,1000);
+/* CALENDAR */
+$('ics').addEventListener('click',function(){var L=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Invite//EN','BEGIN:VEVENT','UID:wedding@invite','DTSTAMP:20261101T000000Z','DTSTART:20261114T140000Z','SUMMARY:Wedding of Mohammad siddik & Rumana','LOCATION:MOTI BAJAR\\, ITVADA ROAD\\, Pavi-jetpur dst. Chhota Udepur\\, 391160','END:VEVENT','END:VCALENDAR'];
+var a=document.createElement('a');a.href=URL.createObjectURL(new Blob([L.join('\r\n')],{type:'text/calendar'}));a.download='wedding.ics';a.click()});
+/* SCROLL REVEAL */
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+document.querySelectorAll('.rv').forEach(function(el){if(reduce)el.classList.add('in');else io.observe(el)});
+if(reduce)return;
+/* PETALS */
+var fx=$('fx'),n=innerWidth<600?10:18;
+for(var i=0;i<n;i++){var p=document.createElement('i');p.className='pt';p.style.left=Math.random()*100+'%';p.style.setProperty('--dx',(Math.random()*120-60)+'px');p.style.animationDuration=(12+Math.random()*10)+'s';p.style.animationDelay=(-Math.random()*20)+'s';fx.appendChild(p)}
+/* GROWING VINE */
+var vp=$('vp'),L=vp.getTotalLength(),leaves=[],ns='http://www.w3.org/2000/svg';
+vp.style.strokeDasharray=L;vp.style.strokeDashoffset=L;
+for(i=1;i<=7;i++){var y=i*130,pt=vp.getPointAtLength(L*y/1000),side=i%2?1:-1,e=document.createElementNS(ns,'ellipse');
+e.setAttribute('cx',pt.x+side*7);e.setAttribute('cy',pt.y);e.setAttribute('rx',7);e.setAttribute('ry',3.5);e.setAttribute('fill','#8C4A55');e.setAttribute('transform','rotate('+(side*-35)+' '+pt.x+' '+pt.y+')');e.style.opacity=0;e.style.transition='opacity .6s';e.dataset.y=y;$('vine').appendChild(e);leaves.push(e)}
+function upd(){var h=document.documentElement.scrollHeight-innerHeight,p=h>0?Math.min(1,scrollY/h):0;vp.style.strokeDashoffset=L*(1-p);
+leaves.forEach(function(e){e.style.opacity=p*1000>e.dataset.y?.9:0})}
+addEventListener('scroll',function(){requestAnimationFrame(upd)},{passive:true});upd();
+})();
+</script></body></html>
